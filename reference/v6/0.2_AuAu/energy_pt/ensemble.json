@@ -1,0 +1,47 @@
+{
+ "system": "AuAu",
+ "collision": "Au-Au, sqrt(s_NN) = 200 GeV",
+ "input": "energy",
+ "observables": {
+  "nch": "charged-particle multiplicity at midrapidity, pT >= 0.15 GeV",
+  "pt": "mean transverse momentum [GeV] of the same particles"
+ },
+ "folds": [
+  0,
+  1,
+  2,
+  3,
+  4
+ ],
+ "combination": "geometric mean of the fold predictions (mean of log y)",
+ "max_S": 121691.85417,
+ "input_definition": "TRENTo energy density, used directly",
+ "image": "ch0 = x/255, ch1 = x/S (S = pixel sum of the 280x280 grid); scalar input S/max_S",
+ "trento": "-p 0.063 -k 1.05 -x 6.28 -w 1.12 -d 1.437425 -n 5.73 --grid-max 14.0 --grid-step 0.1 Au Au",
+ "training": {
+  "head_units": 32,
+  "head_dropout": 0.4,
+  "head_l2": 0.0001,
+  "trunk_dropout": 0.3,
+  "learning_rate": 0.0003,
+  "huber_delta": 1.0,
+  "batch_size": 256,
+  "warmup_epochs": 100,
+  "es_patience": 80,
+  "rlr_patience": 15,
+  "rlr_factor": 0.5,
+  "min_lr": 1e-06,
+  "n_aug_mild": 8,
+  "n_aug_ch1": 4,
+  "epochs": 1000
+ },
+ "targets": {
+  "poly_degree": 3,
+  "nch_floor": 10.0,
+  "pred_floor_frac": 1e-06
+ },
+ "n_train_events": 449,
+ "n_heldout_events": 135,
+ "created": "2026-10-09",
+ "gouai_version": "2.0.0"
+}

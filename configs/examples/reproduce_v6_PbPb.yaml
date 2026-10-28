@@ -1,0 +1,28 @@
+description: >
+  Reproduction of the published v6 Pb-Pb 2.76 TeV network (entropy input) from the original ~600 events,
+  with the published split. Use it to learn the steps and to check your environment: the cross-
+  validation and test numbers must agree with reference/v6/2.76_PbPb/entropy_pt/metrics.json within the
+  run-to-run scatter of GPU training (~5-10 % on the errors).
+
+system: 2.76_PbPb
+input: entropy
+run_dir: /path/to/CHANGE_runs/reproduce_v6_PbPb          # CHANGE
+
+data:
+  x_path: /path/to/CHANGE_v6_data/2.76_PbPb/x_entropy.dat
+  x_kind: entropy
+  y_file: /path/to/CHANGE_v6_data/2.76_PbPb/Y_eta0p5_pt.dat
+
+splits:
+  import_from: reference/v6/2.76_PbPb/splits.json   # the exact v6 held-out events and folds
+  protect_reference_test: false                 # not needed: the split is the v6 split itself
+
+reference:
+  old_data:
+    x_file: /path/to/CHANGE_v6_data/2.76_PbPb/x_entropy.dat
+    x_kind: entropy
+    y_file: /path/to/CHANGE_v6_data/2.76_PbPb/Y_eta0p5_pt.dat
+
+production:
+  trento_args: "-p 0.063 -k 1.05 -x 6.28 -w 1.12 -d 1.437425 -n 14.2 --grid-max 14.0 --grid-step 0.1 Pb Pb"
+  seed_base: 276000000

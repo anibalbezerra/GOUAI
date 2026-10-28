@@ -1,0 +1,23 @@
+description: >
+  Pb-Pb 2.76 TeV, NEW hybrid sample, entropy density as input (the paper's choice).
+  Copy this file, change the paths marked CHANGE, and keep everything else.
+
+system: 2.76_PbPb
+input: entropy
+run_dir: /path/to/CHANGE_runs/PbPb_new_entropy      # CHANGE: your own folder
+
+data:
+  x_path: /path/to/CHANGE_new_data/2.76_PbPb/xenergy     # CHANGE: folder with one energy-density file per event
+  x_kind: energy                                         #         (or one file x_energy.dat, one event per line)
+  x_pattern: '(\d+)'                                     # the first number in each file name is the event id
+  y_file: /path/to/CHANGE_new_data/2.76_PbPb/Y_eta0p5_pt.dat   # CHANGE
+
+reference:
+  old_data:   # CHANGE: the v6 training sample (protects its test events, enables comparison B); delete if unavailable
+    x_file: /path/to/CHANGE_v6_data/2.76_PbPb/x_entropy.dat
+    x_kind: entropy
+    y_file: /path/to/CHANGE_v6_data/2.76_PbPb/Y_eta0p5_pt.dat
+
+production:                      # only for step 10 B (TRENTo samples); the hybrid events' TRENTo parameters
+  trento_args: "-p 0.063 -k 1.05 -x 6.28 -w 1.12 -d 1.437425 -n 14.2 --grid-max 14.0 --grid-step 0.1 Pb Pb"
+  seed_base: 1276000000   # v6 used 276000000: a different base gives independent events

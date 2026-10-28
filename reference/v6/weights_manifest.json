@@ -1,0 +1,102 @@
+{
+ "2.76_PbPb/entropy_pt/fold_0/model.weights.h5": {
+  "zenodo_file": "PbPb_entropy_pt_fold0.weights.h5",
+  "sha256": "7149fd394f9d3a7c27dbb4cc87774578088f9db325bd21ae172495eae0f35e17",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/entropy_pt/fold_1/model.weights.h5": {
+  "zenodo_file": "PbPb_entropy_pt_fold1.weights.h5",
+  "sha256": "1b7ce00e6d2df3cd84112dfc7ca6c282a36ba1da36ff6cd455bf202a6f75c779",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/entropy_pt/fold_2/model.weights.h5": {
+  "zenodo_file": "PbPb_entropy_pt_fold2.weights.h5",
+  "sha256": "5d280df08e66e428cab84f07b21310ab7532aa354519987f658faf5338d5cbd3",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/entropy_pt/fold_3/model.weights.h5": {
+  "zenodo_file": "PbPb_entropy_pt_fold3.weights.h5",
+  "sha256": "425e3be90f4ace5f0c9d1a555f2c157e028cd9f7b39ede0afebc3baac9e913bb",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/entropy_pt/fold_4/model.weights.h5": {
+  "zenodo_file": "PbPb_entropy_pt_fold4.weights.h5",
+  "sha256": "61e30e0fdaa6141c20aabd9527f0d0d08e3e4bcbba980376ded4bc53a20fe9b8",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/entropy_pt/fold_0/model.weights.h5": {
+  "zenodo_file": "AuAu_entropy_pt_fold0.weights.h5",
+  "sha256": "9db08603a16a41b79f5635ef385849ae7ee2dabbefcdba3f94ad8d8bcc1a0870",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/entropy_pt/fold_1/model.weights.h5": {
+  "zenodo_file": "AuAu_entropy_pt_fold1.weights.h5",
+  "sha256": "1d47906bdab662e89e7b858c034d55a61e8c8b09b5b5aa134c31a466819ab465",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/entropy_pt/fold_2/model.weights.h5": {
+  "zenodo_file": "AuAu_entropy_pt_fold2.weights.h5",
+  "sha256": "a82587b300fbad622ab12c788aacc4774a7d79515178a82219560c44f589a891",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/entropy_pt/fold_3/model.weights.h5": {
+  "zenodo_file": "AuAu_entropy_pt_fold3.weights.h5",
+  "sha256": "34eaee475c9eb4eb799ae1df3e121c622c0e385d83da000421d0c2c3bb39929b",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/entropy_pt/fold_4/model.weights.h5": {
+  "zenodo_file": "AuAu_entropy_pt_fold4.weights.h5",
+  "sha256": "8a04cbae21e965c263e6ab99b9ddd06a392b0266404632301ba2f6e805eedf80",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/energy_pt/fold_0/model.weights.h5": {
+  "zenodo_file": "PbPb_energy_pt_fold0.weights.h5",
+  "sha256": "3acf5cd6bde03c4b76d3a8ca8bfe50a6acfb59e558bcb697789d74f4f1202276",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/energy_pt/fold_1/model.weights.h5": {
+  "zenodo_file": "PbPb_energy_pt_fold1.weights.h5",
+  "sha256": "f575015a74dea1c17c6690c9f65394e10dcee802839941459b8e138c5137fed2",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/energy_pt/fold_2/model.weights.h5": {
+  "zenodo_file": "PbPb_energy_pt_fold2.weights.h5",
+  "sha256": "0adfaaf82c14f96b8d8e97c929cfee5e6488cc57dba994050ab4138bf28e2f89",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/energy_pt/fold_3/model.weights.h5": {
+  "zenodo_file": "PbPb_energy_pt_fold3.weights.h5",
+  "sha256": "cedb78e869c1a9d590440d163e42dc7a3b7bdaf3caff8cece00771b7bfd0c922",
+  "bytes": 135357384
+ },
+ "2.76_PbPb/energy_pt/fold_4/model.weights.h5": {
+  "zenodo_file": "PbPb_energy_pt_fold4.weights.h5",
+  "sha256": "06788f22ad404dbe1a1f8fc01c6df8a9f8e5594cd8b8f396343e15778d19c921",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/energy_pt/fold_0/model.weights.h5": {
+  "zenodo_file": "AuAu_energy_pt_fold0.weights.h5",
+  "sha256": "0bc29665667c93617330fed1d57088d2964b44a8ed166e1e16982c2db1e0bba8",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/energy_pt/fold_1/model.weights.h5": {
+  "zenodo_file": "AuAu_energy_pt_fold1.weights.h5",
+  "sha256": "3d64f8459aca2b655d19e3680091257409e7eb499b59a704db15a4d91028afa6",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/energy_pt/fold_2/model.weights.h5": {
+  "zenodo_file": "AuAu_energy_pt_fold2.weights.h5",
+  "sha256": "88168e7cdd376f1b408b6b8cd94e3db570754816b8cd1156c75b9a51fb5411e6",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/energy_pt/fold_3/model.weights.h5": {
+  "zenodo_file": "AuAu_energy_pt_fold3.weights.h5",
+  "sha256": "45d1b685f2c827df0ebee0b64abcfbd5f2d52fc061c24efb3db742c0d9f4a961",
+  "bytes": 135357384
+ },
+ "0.2_AuAu/energy_pt/fold_4/model.weights.h5": {
+  "zenodo_file": "AuAu_energy_pt_fold4.weights.h5",
+  "sha256": "5cfd889a26fd2af37de08b1d413e0e17705f069bc2b21fec592a73fc63f7f9c3",
+  "bytes": 135357384
+ }
+}

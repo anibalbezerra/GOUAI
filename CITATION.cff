@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below (preferred citation) and this repository."
+title: "GOUAI-train: training and validation of the GOUAI neural networks on new hybrid heavy-ion events"
+abstract: >-
+  Step-by-step training, cross-validation and comparison pipeline of the GOUAI neural networks, which
+  predict the event-by-event charged-particle multiplicity and mean transverse momentum (pT >= 0.15 GeV)
+  of a JETSCAPE hybrid model (TRENTo, free streaming, MUSIC, iS3D, SMASH) from the initial condition,
+  for Pb-Pb collisions at 2.76 TeV and Au-Au collisions at 200 GeV.
+authors:
+  - family-names: "Bezerra"
+    given-names: "Anibal"
+  - family-names: "Gardim"
+    given-names: "Fernando G."
+version: 1.0.0
+date-released: 2026-10-28
+license: MIT
+# repository-code: "https://github.com/<owner>/GOUAI-train"     (set when published)
+references:
+  - type: software
+    title: "GOUAI: Global Observables Using Artificial Intelligence"
+    authors:
+      - family-names: "Bezerra"
+        given-names: "Anibal"
+      - family-names: "Gardim"
+        given-names: "Fernando G."
+    url: "https://github.com/anibalbezerra/GOUAI"
+preferred-citation:
+  type: article
+  title: "Final-state centrality in relativistic heavy-ion simulations from neural networks"
+  authors:
+    - family-names: "Bezerra"
+      given-names: "Anibal"
+    - family-names: "Gardim"
+      given-names: "Fernando G."
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2610.13828"
+  doi: "10.48550/arXiv.2610.13828"
+  url: "https://arxiv.org/abs/2610.13828"

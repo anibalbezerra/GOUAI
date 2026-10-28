@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# outputs: never commit data, run directories or weights
+runs/
+gouai_runs/
+logs/*
+!logs/.gitkeep
+*.npy
+*.npz
+*.h5
+*.keras
+*.tfrecord
+*.tmp
+
+# large raw data files (the EoS table is the one exception)
+*.dat
+!gouai_train/data/hrg_hotqcd_eos_binary.dat
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store

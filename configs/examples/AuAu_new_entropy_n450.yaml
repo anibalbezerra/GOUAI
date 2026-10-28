@@ -1,0 +1,23 @@
+description: >
+  Learning-curve run: the SAME held-out test set as AuAu_new_entropy, but only 450 training events
+  (as many as v6), drawn from the new training events. Comparing it with the full run separates the
+  effect of MORE events from the effect of DIFFERENT (more central) events.
+  Run steps 01-07 after AuAu_new_entropy has finished step 02.
+
+system: 0.2_AuAu
+input: entropy
+run_dir: /path/to/CHANGE_runs/AuAu_new_entropy_n450      # CHANGE
+
+data:
+  reuse_prepared_from: /path/to/CHANGE_runs/AuAu_new_entropy   # CHANGE: the full run (no re-reading)
+
+splits:
+  import_from: /path/to/CHANGE_runs/AuAu_new_entropy/splits/splits.json   # CHANGE
+  train_subsample: 450
+  subsample_seed: 0
+
+reference:
+  old_data:
+    x_file: /path/to/CHANGE_v6_data/0.2_AuAu/x_entropy.dat
+    x_kind: entropy
+    y_file: /path/to/CHANGE_v6_data/0.2_AuAu/Y_eta0p5_pt.dat

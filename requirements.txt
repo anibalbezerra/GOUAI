@@ -1,0 +1,10 @@
+# GOUAI-train. Tested with Python 3.13, TensorFlow 2.21 / Keras 3.13 on NVIDIA RTX 6000 Ada (CUDA bundled by pip).
+tensorflow[and-cuda]>=2.20,<2.22   # on a machine without NVIDIA GPU: tensorflow>=2.20,<2.22
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+pyyaml>=6.0
+h5py>=3.10
+pytest>=8.0

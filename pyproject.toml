@@ -1,0 +1,36 @@
+[project]
+name = "gouai-train"
+version = "1.0.0"
+description = "Train, validate and compare the GOUAI neural networks (event-by-event N_ch and [pT] from initial conditions) on new hybrid heavy-ion events"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Anibal Bezerra" }, { name = "Fernando G. Gardim" }]
+dependencies = [
+    "tensorflow>=2.20,<2.22",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "pyyaml>=6.0",
+    "h5py>=3.10",
+]
+
+[project.optional-dependencies]
+gpu = ["tensorflow[and-cuda]>=2.20,<2.22"]
+test = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["gouai_train"]
+
+[tool.setuptools.package-data]
+gouai_train = ["data/hrg_hotqcd_eos_binary.dat"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
