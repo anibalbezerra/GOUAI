@@ -1,4 +1,4 @@
-# GOUAI-train
+# GOUAI
 
 Train, validate and compare the **GOUAI** neural networks on new hybrid-model events.
 
@@ -16,6 +16,7 @@ hybrid samples and the results compared with v6 in a fair, controlled way:
 > A. Bezerra and F. G. Gardim, *Final-state centrality in relativistic heavy-ion simulations from neural networks*,
 > [arXiv:2610.13828](https://arxiv.org/abs/2610.13828) [nucl-th] (2026).
 > Trained networks and inference code: [GOUAI](https://github.com/anibalbezerra/GOUAI).
+> Trained weights: [ZENODO](https://zenodo.org/records/23745695?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjRlMGE5NTM1LTczNGQtNDUwMC04YzYxLTc2ODZlODhkMTMwZCIsImRhdGEiOnt9LCJyYW5kb20iOiJkY2M0YzkzMWE3ZjljYWY4MDRmNTIyOTA0ZmQ5Yzk2YiJ9.xF69k0qPf_2EURKiIyOHaIrprcOBofyVxNwhAu08pbmS96QYRj3juWDBkH80FlQ5uYrAjrySuQnLpB0tMxRf3w)
 
 | | |
 |---|---|
